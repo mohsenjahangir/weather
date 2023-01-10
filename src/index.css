@@ -7,13 +7,13 @@ body{
   font-family: 'montseratt',sans-serif;
 }
 .app{
-  background-image: url('./assetes/cold.jpg');
+  background-image: url('https://www.findingtheuniverse.com/wp-content/uploads/2017/01/Sun2BFinland_by_Laurence2BNorah.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease;
 }
 .app.warm{
-  background-image: url(./assetes/warm.webp);
+  background-image: url('https://img.freepik.com/premium-vector/camel-sunset-desert_1308-17542.jpg?w=2000');
 }
 main{
   min-height: 100vh;
@@ -43,7 +43,7 @@ main{
 .search-box .search-bar:focus{
   background-color: rgba(255, 255, 255,0.75);
 }
-.location-box .location{
+.location{
   color: #fff;
   font-size: 32px;
   font-weight: 500;
